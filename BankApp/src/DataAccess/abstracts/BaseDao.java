@@ -3,6 +3,7 @@ package DataAccess.abstracts;
 import Entities.concretes.IndividualAccount;
 
 import java.sql.SQLException;
+import java.util.List;
 
 public interface BaseDao {
     /*
@@ -22,5 +23,7 @@ public interface BaseDao {
     void withdraw(IndividualAccount individualAccount, int amount) throws SQLException;
 
     void transfer(IndividualAccount individualAccount, int amount, String iban) throws SQLException;
+
+    void getAll() throws SQLException;
 
 }

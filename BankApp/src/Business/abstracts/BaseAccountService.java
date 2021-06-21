@@ -13,4 +13,5 @@ public interface BaseAccountService {
     void addAccount(IndividualAccount individualAccount) throws Exception;
     void updateAccount(IndividualAccount individualAccount,String nameUpdate, String surnameUpdate) throws SQLException;
     void deleteAccount(IndividualAccount individualAccount) throws SQLException;
+    void getAllAccounts() throws SQLException;
 }

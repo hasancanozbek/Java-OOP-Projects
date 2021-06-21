@@ -4,7 +4,6 @@ import Business.abstracts.BankService;
 import DataAccess.abstracts.BaseDao;
 import DataAccess.concretes.DbHelper;
 import Entities.concretes.IndividualAccount;
-import org.postgresql.util.PSQLState;
 
 import java.sql.*;
 
