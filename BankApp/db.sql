@@ -1,1 +1,1 @@
-SELECT * FROM individual_accounts
+select * from individual_accounts

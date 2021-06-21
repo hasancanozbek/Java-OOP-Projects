@@ -49,4 +49,11 @@ public class AccountManager implements BaseAccountService {
             baseDao.deleteFromDb(individualAccount);
         }
     }
+
+    @Override
+    public void getAllAccounts() throws SQLException {
+        baseDao.getAll();
+    }
+
+
 }

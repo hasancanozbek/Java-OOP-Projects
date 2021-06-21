@@ -2,7 +2,7 @@
 <dataSource name="bank@localhost">
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.21">
     <root id="1">
-      <ServerVersion>13.2</ServerVersion>
+      <ServerVersion>13.3</ServerVersion>
       <Grants>1||-9223372036854775808|c|G
 1||10|c|G
 1||10|C|G
@@ -792,7 +792,7 @@ false YEKT
 false Z
 false Zulu
 </TimeZones>
-      <StartupTime>1623766317</StartupTime>
+      <StartupTime>1624181845</StartupTime>
     </root>
     <database id="2" parent="1" name="bank">
       <ObjectId>16724</ObjectId>
@@ -807,7 +807,7 @@ false Zulu
 13158||-9223372036854775808|U|G
 13158||10|U|G</Grants>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>554</IntrospectionStateNumber>
+      <IntrospectionStateNumber>581</IntrospectionStateNumber>
       <Current>1</Current>
       <Relations>sequence|table|16734|16736|1
 </Relations>
@@ -879,7 +879,7 @@ false Zulu
       <Comment>standard public schema</Comment>
       <StateNumber>287</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>555</IntrospectionStateNumber>
+      <IntrospectionStateNumber>582</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <extension id="18" parent="2" name="plpgsql">
@@ -988,16 +988,15 @@ false Zulu
     <table id="31" parent="17" name="individual_accounts">
       <ObjectId>16736</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>547</StateNumber>
+      <StateNumber>579</StateNumber>
     </table>
     <column id="32" parent="31" name="id">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>547</StateNumber>
+      <StateNumber>567</StateNumber>
       <TypeId>23</TypeId>
-      <IdentityKind>always</IdentityKind>
-      <Computed>1</Computed>
+      <IdentityKind>by-default</IdentityKind>
     </column>
     <column id="33" parent="31" name="account_id">
       <Position>2</Position>
@@ -1034,7 +1033,14 @@ false Zulu
       <StateNumber>547</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <index id="38" parent="31" name="individual_accounts_pkey">
+    <column id="38" parent="31" name="customer_birth_of_year">
+      <Position>7</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>580</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="39" parent="31" name="individual_accounts_pkey">
       <ObjectId>16739</ObjectId>
       <StateNumber>547</StateNumber>
       <ColNames>id</ColNames>
@@ -1044,12 +1050,28 @@ false Zulu
       <CollationIds>0</CollationIds>
       <ClassIds>1978</ClassIds>
     </index>
-    <key id="39" parent="31" name="individual_accounts_pkey">
+    <index id="40" parent="31" name="individual_accounts_customer_tc_key">
+      <ObjectId>16741</ObjectId>
+      <StateNumber>560</StateNumber>
+      <ColNames>customer_tc</ColNames>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>100</CollationIds>
+      <CollationNames>default</CollationNames>
+      <ClassIds>3126</ClassIds>
+    </index>
+    <key id="41" parent="31" name="individual_accounts_pkey">
       <ObjectId>16740</ObjectId>
       <StateNumber>547</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>individual_accounts_pkey</UnderlyingIndexName>
+    </key>
+    <key id="42" parent="31" name="individual_accounts_customer_tc_key">
+      <ObjectId>16742</ObjectId>
+      <StateNumber>560</StateNumber>
+      <ColNames>customer_tc</ColNames>
+      <UnderlyingIndexName>individual_accounts_customer_tc_key</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>

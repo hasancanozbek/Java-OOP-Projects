@@ -9,19 +9,17 @@ public class IndividualAccount implements BaseAccount {
     private String customerTC;
     private int customerBirthOfYear;
     private int balance;
-    private double interest;
 
 
     public IndividualAccount (){}
 
-    public IndividualAccount (String accountId, String customerFirstName, String customerLastName, String customerTC, int customerBirthOfYear, int balance,double interest){
+    public IndividualAccount (String accountId, String customerFirstName, String customerLastName, String customerTC, int customerBirthOfYear, int balance){
         this.accountId = accountId;
         this.customerFirstName = customerFirstName;
         this.customerLastName = customerLastName;
         this.customerTC = customerTC;
         this.customerBirthOfYear = customerBirthOfYear;
         this.balance = balance;
-        this.interest = interest;
     }
 
     public String getAccountId() { return accountId; }
@@ -60,14 +58,6 @@ public class IndividualAccount implements BaseAccount {
 
     public void setBalance(int balance) {
         this.balance = balance;
-    }
-
-    public double getInterest() {
-        return interest;
-    }
-
-    public void setInterest(double interest) {
-        this.interest = interest;
     }
 
     public int getCustomerBirthOfYear() { return customerBirthOfYear; }
