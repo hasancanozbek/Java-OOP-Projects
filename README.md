@@ -3,6 +3,7 @@
  | :computer:**Project Name** | :pencil2:**Description** | :bust_in_silhouette: **Owner** |
 | :---        |    :----:   |          ---: |
 | :white_check_mark: [BankApp](https://github.com/hasancanozbek/My-Java-OOP-Projects/blob/main/BankApp/PROJE-ISTERLERI.md " project requests ")| Digital bank project with java using OOP, AOP techniques  | [Hasan Can ÖZBEK](https://github.com/hasancanozbek) |
+|:white_check_mark:[CoffeeShop](https://github.com/hasancanozbek/Java-OOP-Projects/blob/main/CoffeeShop/PROJE-ISTERLERI.md)|Coffee shop customer management system (with MERNİS validation service) |[Hasan Can ÖZBEK](https://github.com/hasancanozbek)|
 |:white_check_mark:Cinema Management System|Coming soon |[Hasan Can ÖZBEK](https://github.com/hasancanozbek)|
 
 
