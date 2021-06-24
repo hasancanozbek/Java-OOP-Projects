@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36366908-4852-447a-99b4-43e4fcbfef39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/EasyWSDLLib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstracts/CampaignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstracts/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstracts/PersonCheckService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstracts/SaleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstracts/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concretes/CampaignManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concretes/FakeValidationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concretes/GameSaleManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concretes/GamerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concretes/MernisValidationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/MernisServiceReference/LOKDateTimeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/MernisServiceReference/LOKExtendedSoapSerializationEnvelope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/MernisServiceReference/LOKHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/MernisServiceReference/LOKKPSPublicSoap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/MernisServiceReference/LOKKPSPublicSoap12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/MernisServiceReference/LOKMarshalGuid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/MernisServiceReference/LOKStandardDateTimeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/MernisServiceReference/Metadata.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/MernisServiceReference/docs/Html/LOKKPSPublicSoap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/MernisServiceReference/docs/Html/LOKKPSPublicSoap12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/MernisServiceReference/docs/Html/LOKKPSPublicSoap12_methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/MernisServiceReference/docs/Html/LOKKPSPublicSoap_methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/MernisServiceReference/docs/Html/MTOMTransfer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/MernisServiceReference/docs/Html/Tips.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/MernisServiceReference/docs/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/MernisServiceReference/docs/Styles/Blueprint_Styles/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/Campaign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/Gamer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameStore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GameStore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Main.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1uO7aslRImel24PEW8HiJY4bbgV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="discord-application" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Concretes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="15" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="GameStore" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="15" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="GameStore" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="GameStore" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="GameStore" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36366908-4852-447a-99b4-43e4fcbfef39" name="Default Changelist" comment="" />
+      <created>1624524850025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624524850025</updated>
+      <workItem from="1624524853311" duration="6975000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
