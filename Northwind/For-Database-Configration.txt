@@ -1,0 +1,18 @@
+Northwind/src/main/resources/application.properties içine aşağıdaki komutları yapıştırın.
+DATABASE_NAME : Oluşturduğunuz DB adı.(PostgreSql büyük küçük harf duyarlıdır.)
+PASSWORD : PgAdmin panellinde girişte kullandığınız parolanız.
+---------------------------------------------------------------------------------
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.hibernate.show-sql=true
+spring.datasource.url=jdbc:postgresql://localhost:5432/DATABASE_NAME
+spring.datasource.username=postgres
+spring.datasource.password=PASSWORD
+spring.jpa.properties.javax.persistence.validation.mode = none
+---------------------------------------------------------------------------------
+
+Database içindeki hazır verileri yüklemek için Db üzerinde sağ tıklayıp QueryTool açmanız ve aşağıdaki linkten kopyaladığınız
+sql kodlarını yapıştırıp execute butonuna basmanız gerekiyor.
+Northwind veritabanı için : https://github.com/engindemirog/Northwind-Database-Script-for-Postgre-Sql/blob/master/script.sql
+Not : Northwind, Microsoft'un eğitimlerinde kullandığı hazır bir veritabanıdır. İçerisinde binlerce data örneği barındırır.
+      Projelerinizde istediğiniz gibi kullanabilirsiniz.

@@ -13,7 +13,7 @@ public class ProductManager implements ProductService {
 
     private ProductDao productDao;
 
-    @Autowired
+    @Autowired // Spring bu anotasyonla bizim yerimize constructor injection yapıyor. Bizim extradan class oluşturup new'lememiz gerekmiyor.
     public ProductManager(ProductDao productDao) {
         this.productDao = productDao;
     }
