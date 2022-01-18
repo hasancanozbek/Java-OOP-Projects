@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="EasyWSDLLib">
+    <archive path="D:/GitHub Repo/My-OOP-Projects/BankApp/easywsdl/ExKsoap2-1.0.3.1.jar" />
+    <archive path="D:/GitHub Repo/My-OOP-Projects/BankApp/easywsdl/ksoap2-android-assembly-3.6.4-jar-with-dependencies.jar" />
+    <archive path="D:/GitHub Repo/My-OOP-Projects/BankApp/postgresql-42.2.22.jar" />
+  </library>
+</eclipse-userlibraries>
+

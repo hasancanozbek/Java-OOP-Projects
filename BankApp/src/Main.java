@@ -5,7 +5,6 @@ import Business.concretes.BankManager;
 import DataAccess.concretes.PostgreSqlDao;
 import Entities.concretes.IndividualAccount;
 
-
 public class Main {
 
     public static void main(String[] args) throws Exception {
